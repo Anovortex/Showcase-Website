@@ -20,16 +20,16 @@
     padding: 1rem;    
 }
 
-#nav .col .logo{
+#nav .col .logo {
     text-align: center;
     font-size: 2rem;
     color: #BBAB8C;
     text-shadow: 1px 1px 0 #433924b6; 
     
 }
-#nav .col .menu_list {
-    
-margin: 1.8rem 0 0;}
+#nav .col .menu_list {    
+margin: 1.8rem 0 0;
+}
 
 #nav .col .menu_list a{
     justify-content:space-evenly;
@@ -46,7 +46,7 @@ margin: 1.8rem 0 0;}
     font-weight: bolder;
     -webkit-text-stroke: 0.1rem #433924b6;
 }
-
+/*---------------------------------------------------------*/
 #vid_bg{
     position: fixed;
     top: 0;
@@ -99,4 +99,12 @@ margin: 1.8rem 0 0;}
     -webkit-text-stroke: 0.125rem #fff;
     color: transparent;
 
+ }
+
+ .about{
+    text-align: center;
+    margin: 30% 10% 5%;    
+ }
+ #details{
+    font: 5px;
  }
