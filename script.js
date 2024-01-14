@@ -1,5 +1,5 @@
 const typingText = document.getElementById("typingText");
-const words = document.getElementById("typingText");
+const words = ["Welcome!"];
 let wordIndex = 0;
 let letterIndex = 0;
 
