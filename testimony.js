@@ -1,5 +1,5 @@
 const typingTextElement = document.getElementById('testTypingText');
-const text = 'Testimonies';
+const text = 'Testimonials';
 let index = 0;
 
 function typeText() {
@@ -14,3 +14,11 @@ function typeText() {
 
 const typingInterval = setInterval(typeText, 150);
 
+$(document).ready(function(){
+  $(".upBtn").click(function(){
+    $(".hidden").slideToggle();
+    $(this).text(function(i, text){
+      return text === "Show" ? "Hide" : "Show";
+    });
+  });
+});
