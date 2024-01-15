@@ -59,7 +59,7 @@ margin: 1.8rem 0 0;
 /*---------------------------------------------------------*/
 
 .test_ban{
-    position: fixed;
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -98,3 +98,79 @@ margin: 1.8rem 0 0;
  .wel_ban:hover{
     -webkit-text-stroke: 0.125rem #fff;
     color: transparent;}
+/*----------------------------------------------------------------------*/
+
+.testimonies{
+    margin: 25% 14.25rem 0;
+    width: 100;
+    background: #00000050;
+    color: #BBAB8C;
+}
+
+.person1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2.5rem 2.5rem 0;
+}
+.person1 img{
+    width:15rem;
+    padding: 1rem;
+}
+
+.person1 h2{
+    margin: 7.5rem 0.5rem 0  ;
+    text-wrap: nowrap;
+    font-weight: bold;
+}
+.person1 p{
+    margin: 6rem 0.5rem 0;
+
+}
+/*-----------------------------------------------------------------------*/
+
+
+.person2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 2.5rem;
+}
+.person2 img{
+    width:15rem;
+    padding: 1rem;
+}
+
+.person2 h2{
+    margin: 7.5rem 0.5rem 0  ;
+    text-wrap: nowrap;
+    font-weight: bold;
+}
+.person2 p{
+    margin: 6rem 0.5rem 0;
+
+}
+/*----------------------------------------------------------------------*/
+
+
+.person3{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 2.5rem;
+}
+.person3 img{
+    width:15rem;
+    padding: 1rem;
+}
+
+.person3 h2{
+    margin: 7.5rem 0.5rem 0  ;
+    text-wrap: nowrap;
+    font-weight: bold;
+}
+.person3 p{
+    margin: 6rem 0.5rem 0;
+
+}
+/*------------------------------------------------------------------------*/
