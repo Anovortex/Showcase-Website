@@ -18,10 +18,10 @@ $(document).ready(function(){
   $(".upBtn").click(function(){
     $(".hidden").slideToggle();
 
-    if ($(this).text() === "Hide") {
-      $(this).text("Show");
+    if ($(this).text() === "Show Less") {
+      $(this).text("Show More");
     } else {
-      $(this).text("Hide");
+      $(this).text("Show Less");
     }
 
     const position = $(".hidden").offset().top;
