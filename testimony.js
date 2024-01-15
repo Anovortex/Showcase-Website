@@ -17,8 +17,15 @@ const typingInterval = setInterval(typeText, 150);
 $(document).ready(function(){
   $(".upBtn").click(function(){
     $(".hidden").slideToggle();
-    $(this).text(function(i, text){
-      return text === "Show" ? "Hide" : "Show";
-    });
+
+    if ($(this).text() === "Hide") {
+      $(this).text("Show");
+    } else {
+      $(this).text("Hide");
+    }
+
+    const position = $(".hidden").offset().top;
+    $("html, body").animate({ scrollTop: position }, "slow");
+
   });
 });
