@@ -58,7 +58,7 @@ margin: 1.8rem 0 0;
 /*--------------------------------------------------------------------*/
 .wel_ban{
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1.25rem;
@@ -110,7 +110,7 @@ margin: 1.8rem 0 0;
 
 .about_ban{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem;

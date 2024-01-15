@@ -7,17 +7,18 @@
 }
 
 #nav{
+   
     width: 100%;
     height: 5rem;
     
 }
 
-#nav .col{
-    display: flex;
-    justify-content: space-between;
-    
-    margin: 1rem 5rem 0;
-    padding: 1rem;    
+#nav .col{ 
+   display: flex;
+   justify-content: space-between;
+   
+   margin: 1rem 5rem 0;
+   padding: 1rem;    
 }
 
 #nav .col .logo {
@@ -57,7 +58,7 @@ margin: 1.8rem 0 0;
 }
 .cont_ban{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem;
@@ -97,3 +98,80 @@ margin: 1.8rem 0 0;
     }
  }
  
+ .cont{
+   display: flex;
+   justify-content: space-around;
+   margin:25% 15rem 0 ;
+   }
+   
+.aboutUs{
+   margin: 6% 0 0;
+   text-align: left;
+   color:#BBAB8C;
+}
+   
+.aboutUs h2{
+   font-size: 2rem;
+   font-weight: bold;
+   padding-bottom: 0.24rem;
+}
+.contForm{
+   opacity: 80%;
+   display: block;
+   justify-content: space-evenly;
+}
+.contForm .naEmail{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.contForm .naEmail input{
+   border: 0;
+   background-color: #BBAB8C;
+   border-radius: 0.35rem;
+   width: 15rem ;
+   height: 1.5rem;
+   margin-right: 2rem ;
+   text-align: center;
+   font-weight: bold;
+   opacity: 80%;
+}
+
+.contForm input{
+   display: block;
+   margin-top: 1rem;
+   border: 0;
+   background-color: #BBAB8C;
+   border-radius: 0.35rem;
+   width: 32rem ;
+   height: 1.5rem;
+   margin-right: 2rem ;
+   text-align: center;
+   font-weight: bold;
+   opacity: 80%;
+}
+
+.contForm input[type="msg"]{
+   display: block;
+   margin-top: 1rem;
+   border: 0;
+   background-color: #BBAB8C;
+   border-radius: 0.35rem;
+   width: 32rem ;
+   height: 10rem;
+   margin-right: 2rem ;
+   text-align: center;
+   font-weight: bold;
+   opacity: 80%;
+} 
+
+.contForm button{
+   margin-top: 1rem;
+   width: 5rem;
+   height: 2rem;
+   background: #BBAB8C;
+   float: right;
+   margin-right: 2rem;
+   border-radius: 0.35rem;
+   opacity: 50%;
+}

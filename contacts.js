@@ -1,5 +1,5 @@
 const typingTextElement = document.getElementById('contTypingText');
-const text = 'Contacts';
+const text = 'Get in touch?';
 let index = 0;
 
 function typeText() {
@@ -13,3 +13,4 @@ function typeText() {
 }
 
 const typingInterval = setInterval(typeText, 200);
+
