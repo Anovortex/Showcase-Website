@@ -1,5 +1,5 @@
-const typingTextElement = document.getElementById('contTypingText');
-const text = 'Get in touch?';
+const typingTextElement = document.getElementById('testTypingText');
+const text = 'Testimonies';
 let index = 0;
 
 function typeText() {

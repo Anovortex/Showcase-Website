@@ -7,7 +7,7 @@ function typeWords() {
    if (letterIndex < words[wordIndex].length) {
       typingText.innerText += words[wordIndex].charAt(letterIndex);
       letterIndex++;
-      setTimeout(typeWords, 100); 
+      setTimeout(typeWords, 150); 
    } 
 }
 
